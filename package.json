@@ -1,0 +1,32 @@
+{
+  "name": "food-festival",
+  "version": "1.0.0",
+  "description": "A project that converts an existing web application designed for a food festival into a progressive web application to increase retention and usability.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olivelliott/food-festival.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olivelliott/food-festival/issues"
+  },
+  "homepage": "https://github.com/olivelliott/food-festival#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.0",
+    "save": "^2.5.0"
+  }
+}
