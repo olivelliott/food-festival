@@ -1,5 +1,4 @@
 require('bootstrap');
-const createEl = require('./domMethods');
 
 function createEl(htmlString, attrs, ...children) {
     if (typeof htmlString !== "string") {
